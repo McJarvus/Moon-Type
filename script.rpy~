@@ -1,0 +1,42 @@
+﻿# The script of the game goes in this file.
+
+# Declare characters used by this game. The color argument colorizes the
+# name of the character.
+
+define a = Character("Alex Jones")
+define u = Character("Unknown")
+define b = Character("Protaonist-kun")
+
+
+# The game starts here.
+
+label start:
+
+    # Show a background. This uses a placeholder by default, but you can
+    # add a file (named either "bg room.png" or "bg room.jpg") to the
+    # images directory to show it.
+
+    scene bg room
+
+    # This shows a character sprite. A placeholder is used, but you can
+    # replace it by adding a file named "eileen happy.png" to the images
+    # directory.
+
+
+    # These display lines of dialogue.
+    "I knew from the moment I was born - I was an InfoWarrior." 
+    u "Hey kid!"
+    "His voice broke through the silence of the room. His smile - those briliantly radient teeth - guided my eyes upward."
+    "He stared right into my soul."
+    "It was him...."
+    "Alex. Fucking. Jones."
+    a "You ready to take on those Globaist scumbags and save the world?"
+    "His hand reached out for mine; glently, but expactantly, he held his stance and awaited my response."
+    "He was testing my conviction. Testing my devotion to him and to InfoWars as a whole."
+    "This time - I would not let him down."
+    
+    
+
+    # This ends the game.
+
+    return
