@@ -97,7 +97,28 @@ label start:
     "And with that, the radio cut out and I was back to being alone, in my patrol car... just down the street of the Flanckership residence."
     "Penny left the house about ten minutes ago - she looked ike she was going to see some friends of hers based on her choice of clothes."
     "I have the next hour or two completely to myself... and it's not like I'll get caught by anyone if I were to walk up to the house."
-    "This is, of course, what I came out here to do in  the first place." 
+    "This is, of course, what I came out here to do in the first place."
+    "I step out of my police car into the bright 2pm sunlight, its rays warm me up - remind me of my mission."
+    "Besides a few passersby, there's no one around on the sidewalks and all the verandas of the adjacent houses sit wanting: empty as the streets below."
+    "Now is my chance."
+    "It only takes me a couple of strides before I'm upon the door to Flanckership's house." 
+    "No cameras, just like I remembered..."
+    "I reach under the doormat of the spare key - \'Bless this house!\', it says..."
+    "Penny changed the doormat. It's more {i}her{\i} now. I don't like it."
+    "What she didn't change was the locks. \n I get in easily, and pass through the doorway like a ghost."
+    "With the door shut behind me, and the rest of the house before me, I have a choice to make:"
+    "Where should I investigate first?"
+    menu:
+        "Master Bedroom":
+                jump MBed
+        "Flanckership's Office":
+                jump Office
+        "Garage":
+                jump Garage
+        "Backyard":
+                jump BYard
+
+    
     
    
     return
